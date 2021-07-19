@@ -2,6 +2,12 @@ set enc=utf-8
 set nocompatible
 source $VIMRUNTIME/vimrc_example.vim
 
+" tab 等于 4 个空格，自动缩进
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set expandtab
+set autoindent
 
 " 关闭自动备份，打开撤销记录（可以跨会话撤销），并将撤销记录文件存储于 ~/.vim/undodir 中
 set nobackup
